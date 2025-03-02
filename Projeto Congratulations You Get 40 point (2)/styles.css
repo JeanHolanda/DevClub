@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+header{
+    margin: 47px 0 0 42px;
+}
+
+.link-header{
+    color: #17233D;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.875px;
+    margin-right: 32px;
+    cursor: pointer;
+}
+
+button{
+    width: 124px;
+    height: 51px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    border: 1px solid #4CB538;
+    background: #6FBF44;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+img{
+    margin: 60px 96px 0 121px;
+}
+
+section{
+    display: inline-block;
+}
+
+h1{
+    color: #161A49;
+    font-size: 62px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 82px; 
+    letter-spacing: 0.596px;
+    width: 582px;
+}
+
+p{
+    color: #4B505A;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px; 
+    letter-spacing: 0.5px;
+    width: 493px;
+    margin: 47px 0 55px 0;
+}
+
+.link-section{
+    color: #6FBF44;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 800px){
+    .link-header{
+        display: none;
+    }
+
+    button{
+        width: 91px;
+        height: 31px;
+        flex-shrink: 0;
+        font-size: 12px;
+        margin: -15px 0 0 55%;
+    }
+
+    img{
+        width: 312px;
+        height: 288px;
+        position: absolute;
+        margin: 90% 0 0 14px;
+    }
+
+    section{
+        margin: 50px 10px 0 22px;
+    }
+
+    h1{
+        width: 278px;
+        text-align: center;
+        font-size: 30px;
+        line-height: 30px;
+        margin: -6% 0 25px 13px;
+    }
+
+    p{
+        width: 304px;
+        text-align: center;
+        margin: 10px 0 25% 0px;
+    }
+
+    .link-section{
+        position: absolute;
+        margin: -14% 0 0 25%;
+    }
+}
